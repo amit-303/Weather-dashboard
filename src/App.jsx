@@ -59,7 +59,7 @@ function App() {
 
   return (
     <div style={appStyle}>
-      <h1>Weather Dashboard</h1>
+      <h1>Amit Vibing - Weather Dashboard</h1>
       <Map onMapClick={handleMapClick} />
       <div style={weatherBoxStyle}>
         {loading && <p>Loading weather...</p>}
